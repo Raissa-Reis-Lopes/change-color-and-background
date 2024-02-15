@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+}
+
+.bgOptions{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgColors{
+    height: 30rem;
+    width: 30rem;
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    scale:1.1;
+}
+
+.textDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgText{
+    height: 30rem;
+    width: 30rem;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+
+.bgText h1{
+    margin-bottom: 1rem;
+}
+
+.text{
+    font-size: 1.5rem;
+    
+}
+
+.bg-1{
+    background: rgb(69, 0, 75);
+}
+
+.bg-2{
+    background: rgb(0, 0, 0);
+}
+
+.bg-3{
+    background: rgb(255, 255, 255);
+}
+
+.bg-4{
+    background: rgb(2, 216, 84);
+}
+
+.txt-1{
+    background: rgb(74, 238, 211);
+}
+
+.txt-2{
+    background: rgb(255, 252, 252);
+}
+
+.txt-3{
+    background: rgb(255, 0, 234);
+}
+
+.txt-4{
+    background: black;
+}
